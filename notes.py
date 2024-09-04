@@ -1,0 +1,7 @@
+name = input("please tell me your name")
+print("hi" + name)
+print(name + "is a very cool name")
+name = input("give me another name")
+print("Hi" + name)
+print(name + "is a pretty cool name")
+print("I wish my name was" + name)

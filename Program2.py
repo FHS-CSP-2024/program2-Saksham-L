@@ -50,8 +50,8 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
-
-
+name = input("whats your name?")
+print(name + " " + name)
 
 
 ## Problem 2 ##
@@ -59,7 +59,8 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
-
+name2 = input("whats your name?")
+print("!"+ name + "!" + name +"!")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -70,12 +71,22 @@
 #   - Last name: Sanders
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
-
+fname = input("whats your first name?")
+lname = input("whats your last name?")
+adress = input("Whats your street adress?")
+postal = input("whats your city and postal code?")
+print(fname)
+print(lname)
+print(adress)
+print(postal)
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
-
+word1 = input("give me a word")
+word2 = input("give me another word")
+word3 = input("give me one last word")
+print(word1 + "-" + word2 + "-" + word3 + "-")
 
 ## Problem 5 ##
 #Please write a script that: 
@@ -88,3 +99,8 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+name = input("please type in a name?")
+year = input("please type in a year?" )
+print(name + " was walking along the road when they saw an ice cream truck.")
+print(name + " chased after that same truck untill the year" + year+".")
+print("When " + name + "finally caught that truck " + name + "made sure to get a spongebob popsicle.")
